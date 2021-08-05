@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+font-family: sans-serif;
+}
+#header {
+    background: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+.container {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.logo {
+    margin-top: 20px;
+    width: 80px;
+}
+.header-text {
+    max-width: 450px;
+    margin-top: 100px;
+}
+.header-text h1 {
+    font-size: 34px;
+    font-weight: lighter;
+}
+.square {
+    margin: 15px 0;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: #f67c92;
+}
+.common-btn {
+    padding: 18px 40px;
+    outline: none;
+    border: 2px solid #f67c92;
+    background: transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+.header-text p {
+    font-size: 15px;
+    line-height: 18px;
+    color: #777;
+}
+.header-text button {
+    margin-top: 26px;
+    margin-bottom: 60px;
+}
+.line-1 {
+    width: 15px;
+    height: 15px;
+    background: #f67c92;
+    display: inline-block;
+}
+.line-2 {
+    width: 80px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+}
+.line-3 {
+    width: 60px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+}
+.line {
+    line-height: 8px;
+}
+#sideNav {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #f67c92;
+    z-index: 2;
+    transition: .5s;
+}
+nav ul li {
+    margin: 50px 20px;
+    list-style: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+#menuBtn {
+    position: fixed;
+    top: 35px;
+    right: 65px;
+    cursor: pointer;
+    z-index: 2;
+    width: 40px;
+}
+#menuClose {
+    position: fixed;
+    top: 35px;
+    right: 120px;
+    display: none;
+    cursor: pointer;
+    z-index: 2;
+    width: 40px;
+}
+#about, #offer {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.about-left-col {
+flex-basis: 50%;
+} 
+.about-left-col img {
+    width: 100%;
+}
+.about-rigth-col {
+    flex-basis: 50%;
+    text-align: right;
+} 
+.about-text {
+    margin-right: 100px;
+    display: inline-block;
+    max-width: 500px;
+}
+.about-text h2 {
+    margin: 50px 0 10px;
+    font-style: italic;
+    font-family: 28px;
+}
+.about-text h3 {
+    margin: 40px 0;
+    font-style: italic;
+    font-family: 20px;
+    color: #797979;
+    font-weight: lighter;
+}
+.about-text p {
+    color: #797979;
+}
+#features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.feature-row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.feature-col {
+    flex-basis: 25%;
+    text-align: center;
+}
+.feature-col img {
+    width: 100px;
+}
+.feature-col h4 {
+font-size: 20px;
+font-weight: lighter;
+margin-bottom: 15px;
+}
+.feature-col p {
+    color: #797979;
+}
+.feature-btn {
+    margin: 80px auto 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.feature-btn .line {
+    text-align: right;
+    margin-right: 25px;
+    display: inline-block;
+}
+#courses {
+    padding: 100px 0;
+}
+.course-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.course-rigth-col {
+    flex-basis: 50%;
+}
+.course-rigth-col img {
+    width: 100%;
+}
+.course-left-col {
+    flex-basis: 50%;
+}
+.course-text {
+    max-width: 350px;
+}
+.course-text  button {
+    margin: 30px 0;
+}
+#offer button {
+    margin: 30px 0;
+}
+.contact-row {
+    display:flex;
+    align-items: center;
+    flex-basis: wrap;
+}
+.contact-rigth-col,.contact-left-col {
+    flex-basis: 50%;
+}
+.contact-rigth-col img  {
+    width: 100%;
+}
+form {
+    max-width: 350px;
+    margin: 30px 0;
+}
+form input {
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border:  2px solid #fab3c4;
+}
+.btn-box {
+    display: flex;
+
+    width: 100%;
+    justify-content: space-around
+}
+.btn-box button {
+    flex-basis: 48%;
+    padding: 18px 0;
+}
+.footer {
+    padding: 50px 0 30px;
+}
+hr {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #f67c92;
+}
+#footer {
+    padding: 30px 0;
+}
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.footer-left-col {
+     flex-basis: 50%;
+     margin-top: 60px;
+}
+.footer-link {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.link-title  h4{
+    color: #fab3c4;
+    margin-bottom: 20px;
+
+}
+
+.footer-right-col {
+    flex-basis: 35%;
+}
+.link-title small {
+    font-size: 13px;
+    color: #777; 
+}
+.copyright-text {
+    margin-top: 50px;
+    text-align: right;
+}
+.social-icons {
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index:1;
+    transition:all 2s ease;
+    transition-delay: 2s;
+     
+}
+.social-icons {
+    display: flex;
+    flex-direction: column;
+}
+.social-icons img {
+    margin: 10px 5px 0;
+    cursor: pointer;
+  width: 20px;
+}
+.social-icons img:hover {
+    width: 23px;
+    /* margin: 10px 0 0; */
+    /* cursor: pointer; */
+}
+@media only screen and (max-width:770px) {
+    #header {
+        background-image: none;
+    }
+    .container {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .logo {
+        margin-top: 27px;
+        width: 70px;
+    }
+    .header-text {
+
+        margin-top: 100px;
+    }
+    .header-text h1 {
+        font-size: 25px;
+        font-weight: lighter;
+    }
+    #menuBtn {
+
+        width: 40px;
+        right: 50px;
+    }
+    .common-btn {
+        padding: 10px 16px;     
+}
+.social-icons img {
+    margin:15px auto;
+    
+  width: 14px;
+}
+.about-rigth-col,.about-left-col {
+    flex-basis: 100%;
+    
+} 
+.about-text {
+    margin:50px 50px 0;
+    display: inline-block;
+   
+}
+.about-text h2 {
+
+    font-family: 18px;
+}
+.feature-col {
+    flex-basis: 100%;
+}
+.course-rigth-col {
+    flex-basis: 100%;
+    margin-top: 70px;
+}
+.contact-left-col {
+    flex-basis: 100%;
+}
+}
